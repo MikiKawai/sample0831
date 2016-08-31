@@ -10,6 +10,6 @@ public class sampleResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String sendHello() {
-        return "hello";
+        return "hello world";
     }
 }
